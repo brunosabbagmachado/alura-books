@@ -6,6 +6,10 @@
     position: relative;
 }
 
+.container__rotulo {
+    
+}
+
 .container {
     display: flex;
     align-items: center;
