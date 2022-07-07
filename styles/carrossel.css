@@ -12,7 +12,8 @@
     width: 100%;
 }
 
-.swiper-button-prev, .swiper-button-next {
+.swiper-button-prev,
+.swiper-button-next {
     display: none;
 }
 
@@ -89,7 +90,8 @@
         width: 60%;
     }
 
-    .swiper-button-prev, .swiper-button-next {
+    .swiper-button-prev,
+    .swiper-button-next {
         display: block;
         top: 60%;
     }
@@ -97,6 +99,10 @@
     .card {
         width: 40%;
         margin: 2em auto;
+    }
+
+    .botoes__ancora:active {
+        background-color: var(--azul);
     }
 }
 
